@@ -9,4 +9,4 @@ Minimal CLI Timer Application.
 * `timerapp 5` - Starts a timer counting down from 5 minutes.
 
 ## License
-[MIT](README.md)
+[MIT](LICENSE)
