@@ -14,7 +14,7 @@ all:
 	$(CC) $(C_STD) $(CFLAGS) -o $(TARGET) $(SOURCE_DIR)/$(FILE_TYPE)
 
 lint:
-	clang-format -i -style=file $(SOURCE_DIR)/*.c
+	clang-format -i -style=file $(SOURCE_DIR)/$(FILE_TYPE)
 
 open:
 	@./$(TARGET)
